@@ -1,0 +1,27 @@
+#home-slider{
+    figure{
+        border: solid #000;
+        border-width: 1px 1px 1px 0px;
+        cursor: grab;
+        min-height: 190px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+.tp-button{
+    a{
+        background: none !important;
+        &:hover{
+            background: #ED1C24 !important;
+            border-color: #ED1C24;
+        }
+    }
+}
